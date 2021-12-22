@@ -149,6 +149,8 @@ h3 { font-size: var(--fs-h3) }
         position: relative;
         left: -1.5em;
         width: calc(100% + 1.5em);
+        padding-left: calc(200px + 4em);
+        padding-right: 2em;
     }
 }
 
@@ -203,6 +205,10 @@ h3 { font-size: var(--fs-h3) }
     margin: 0 auto;
 }
 
+.about-me__img {
+    box-shadow: var(--bs);
+}
+
 @media (min-width: 600px) {
     .about-me {
         display: grid;
@@ -217,8 +223,20 @@ h3 { font-size: var(--fs-h3) }
     .section__title--about {
         grid-area: title;
     }
+
+    .section__subtitle--about {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        position: relative;
+        left: -1em;
+        width: calc(100% + 2em);
+        padding-left: 1em;
+        padding-right: calc(200px + 4em);
+    }
     
     .about-me__img {
         grid-area: img;
+        position: relative;
+        z-index: 2;
     }
 }
