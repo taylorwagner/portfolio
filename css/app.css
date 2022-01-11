@@ -5,10 +5,10 @@
 }
 
 :root {
-    --ff-primary: 'Source Sans Pro', sans-serif;
-    --ff-secondary: 'Source Code Pro', monospace;
+    --ff-primary: 'Questrial', sans-serif;
+    --ff-secondary: 'Ubuntu Condensed', sans-serif;
     
-    --fw-reg: 300;
+    --fw-reg: 400;
     --fw-bold: 900;
     
     --clr-light: #fff;
