@@ -296,9 +296,17 @@ header {
     margin-bottom: 3em;
 }
 
+.services .fab {
+    margin: 10px;
+}
+
 .service {
     max-width: 500px;
     margin: 0 auto;
+}
+
+.service .fab {
+    font-size: 3.5rem;
 }
 
 @media (min-width: 800px) {
